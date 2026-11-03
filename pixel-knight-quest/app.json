@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Pixel Knight Quest",
+    "slug": "pixel-knight-quest",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "plugins": [
+      "expo-notifications",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Attach progress photos to your Knight's Notes.",
+          "cameraPermission": "Take progress photos for your Knight's Notes."
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.pixelknight.habitquest",
+      "permissions": [
+        "POST_NOTIFICATIONS"
+      ]
+    }
+  }
+}
